@@ -22,7 +22,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          About
+          Project Page
         </NavLink>
       </li>
       <li className="nav-item">
@@ -32,28 +32,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Blog
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="contact"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Contact
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="contact/learn"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Learn
+          Contact me
         </NavLink>
       </li>
     </ul>
