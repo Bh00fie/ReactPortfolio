@@ -4,7 +4,7 @@
         "title": "Workout Kitchen",
         "deployed": "https://allen-ec.github.io/workout_kitchen/",
         "repo": "https://github.com/Bh00fie/workout_kitchen",
-        "image": "./images/Workout-Kitchen.png",
+        "image": "",
         "description": "A website that allows the user to search for recipes and exercises. This was a group project that utilises API calls to Spoonacular and Exercises by API Ninjas.",
         "features": "Created with: HTML, CSS, Bootstrap, Javascript, JQuery, JQuery UI, Ajax API"
     },
@@ -13,8 +13,8 @@
         "title": "Code Quiz",
         "deployed": "https://bh00fie.github.io/Code-Quiz/",
         "repo": "https://github.com/Bh00fie/Code-Quiz",
-        "image": "./images/",
-        "description": "A timed multiple-choice coding quiz that saves highscores to local storage.",
+        "image": "",
+        "description": "A timed multiple-choice coding quiz that saves high scores to local storage.",
         "features": "Created with: HTML, CSS, Javascript"
     },
     {
@@ -22,7 +22,7 @@
         "title": "README Generator",
         "deployed": "",
         "repo": "https://github.com/Bh00fie/Professional-README-Generator",
-        "image": "./images/",
+        "image": "",
         "description": "A command line application that creates a professional README markdown file based on the user's inputs.",
         "features": "Created with: Node.js and Inquirer npm"
     },
@@ -31,7 +31,7 @@
         "title": "Weight Tracker",
         "deployed": "https://gentle-licorice-8a4df1.netlify.app/",
         "repo": "https://github.com/Bh00fie/Weight-Tracker",
-        "image": "./images/",
+        "image": "",
         "description": "An application that helps you track your weight and shows your weight in a line graph",
         "features": "EmailJS, ChartJS, React-Icon, React Router, Material UI, EmotionsJS, Bootstrap"
     },
@@ -40,8 +40,8 @@
         "title": "Weather Dashboard",
         "deployed": "https://bh00fie.github.io/weatherDashboard/",
         "repo": "https://github.com/Bh00fie/weatherDashboard",
-        "image": "./images/",
-        "description": "A website that allows to search any location weather using OperWeatherAPI!",
+        "image": "",
+        "description": "A website that allows to search any location weather using OpenWeatherAPI!",
         "features": "OpenWeather API, Bootstrap, user local storage"
     },
     {
@@ -49,7 +49,7 @@
         "title": "Daily Planner",
         "deployed": "https://bh00fie.github.io/DailyPlanner/",
         "repo": "https://github.com/Bh00fie/DailyPlanner",
-        "image": "./images/",
+        "image": "",
         "description": "A helpful work day scheduler that allows the user to type and save events into each hour slot.",
         "features": "Created with: HTML, CSS, Bootstrap, Javascript, JQuery, Moment.js"
     }

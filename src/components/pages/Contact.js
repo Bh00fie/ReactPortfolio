@@ -1,5 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './contactUs.css';
 
 function Contact(props) {
@@ -54,8 +56,8 @@ function Contact(props) {
 
       <div className="socials">
         <p>Get in touch with me at: Bh00fie@gmail.com</p>
-        <a href="https://github.com/Bh00fie"> GitHub</a>
-        <a href="https://www.linkedin.com/in/abhinandan-thour-42359b193/"> LinkedIn</a>
+        <a href="https://github.com/Bh00fie"> <FontAwesomeIcon icon={faGithub} /></a>
+        <a href="https://www.linkedin.com/in/abhinandan-thour-42359b193/"><FontAwesomeIcon icon={faLinkedin} /></a>
       </div>
    </div>
   );

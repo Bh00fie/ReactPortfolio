@@ -37,7 +37,7 @@ function Project({ title, description, features, deployed, repo }) {
           <p>{description}</p>
           <p>{features}</p>
           {isDeployed()}
-          <a href={repo}><button>GitHub Repo</button></a>
+          <a href={repo}><button>GitHub</button></a>
         </div>
       </div>
     </div>

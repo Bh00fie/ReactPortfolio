@@ -1,9 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Home() {
   return (
     <div>
-      <img src="https://placehold.co/400x400" alt = "photo"/>
+      <img src={require("../images/photoprofile.jpg")} alt = "photo"/>
       <p className="homeIntroduction">
         Abhi's here, just finished my Front End Developer Bootcamp with Trilogy! Ready to get get involved in new projects!😊
       </p>
@@ -21,8 +23,9 @@ function Home() {
 
 
       <div className="socials">
-        <a href="https://github.com/Bh00fie"> GitHub</a>
-        <a href="https://www.linkedin.com/in/abhinandan-thour-42359b193/"> LinkedIn</a>
+        <p>Get in touch with me at: Bh00fie@gmail.com</p>
+        <a href="https://github.com/Bh00fie"> <FontAwesomeIcon icon={faGithub} /></a>
+        <a href="https://www.linkedin.com/in/abhinandan-thour-42359b193/"><FontAwesomeIcon icon={faLinkedin} /></a>
       </div>
     </div>
   );
