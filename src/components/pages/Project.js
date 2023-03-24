@@ -27,6 +27,21 @@ function Project({ title, description, features, deployed, repo }) {
       return null;
     }
   };
+
+  return (
+    <div>
+      <div className="project-card column">
+        <div className="img-container" style={{ backgroundImage: `url('${images[title]}')` }} />
+        <div className="project-content p-3">
+          <h2>{title}</h2>
+          <p>{description}</p>
+          <p>{features}</p>
+          {isDeployed()}
+          <a href={repo}><button>GitHub Repo</button></a>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Project;
