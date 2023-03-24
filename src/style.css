@@ -11,3 +11,25 @@ button {
     display: flex;
     
 }
+
+.socials {
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+}
+
+.socials a svg {
+    padding-left: 1vh;
+    width: 2rem;
+}
+
+p {
+    margin: none;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+}
