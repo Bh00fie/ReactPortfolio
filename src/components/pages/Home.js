@@ -1,11 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import photo from "../images/photoprofile.jpg"; 
 
 function Home() {
   return (
     <div>
-       <img src={require("../images/photoprofile.jpg")} />
+       <img src={photo} alt="profile" />
       <p className="homeIntroduction">
         Abhi's here, just finished my Front End Developer Bootcamp with Trilogy! Ready to get get involved in new projects!😊
       </p>
