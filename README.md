@@ -11,7 +11,7 @@ The webpage also contain a 'contact me' page that allows the user to send me a m
 
 ## Deployment
 
-The deployed application can be found here: https://ubiquitous-travesseiro-c7dc08.netlify.app/
+The deployed application can be found here: https://rainbow-florentine-aba336.netlify.app/
 
 ## Technologies used in the application.
 
