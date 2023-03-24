@@ -5,7 +5,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 function Home() {
   return (
     <div>
-      <img src={require("../images/photoprofile.jpg")} alt = "photo"/>
+      <img src={require("../images/photoprofile.jpg")}/>
       <p className="homeIntroduction">
         Abhi's here, just finished my Front End Developer Bootcamp with Trilogy! Ready to get get involved in new projects!😊
       </p>
