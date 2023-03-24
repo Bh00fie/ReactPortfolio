@@ -7,7 +7,7 @@ This is my personal portfolio in react as well one of my final project of the bo
 The portfolio contains an introduction to myself, a project page to show case different projects to give the user an understanding of the level of my skills and examples of what I can build. 
 The webpage also contain a 'contact me' page that allows the user to send me a message using emailJS and download a copy of my most recent CV. 
 
-![screenshot](./public/screenshot.png)
+![screenshot](./src/components/images/screenshot.png)
 
 ## Deployment
 
